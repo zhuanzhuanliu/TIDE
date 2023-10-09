@@ -1,0 +1,4 @@
+SELECT soc_name,stu_name 
+    FROM stu_table FULL JOIN soc_table ON stu_table.stu_soc_id = soc_tabel.soc_id
+    WHERE stu_soc_id = 3
+    ORDER BY stu_id 
